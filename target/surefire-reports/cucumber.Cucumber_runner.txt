@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Cucumber_runner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.63 s <<< FAILURE! -- in cucumber.Cucumber_runner
+cucumber.Cucumber_runner.runScenario["Icorrect message on login", "Icorrect message on login page"](1) -- Time elapsed: 8.402 s <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect1 email or password.] but found [Incorrect email or password.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinationforCucumber.StepDefination.message_is_displayed_on_login_page(StepDefination.java:73)
+	at ✽."Incorrect1 email or password." message is displayed on login page(file:///D:/Framework/Framework/src/test/java/cucumber/Exception.feature:9)
+
+cucumber.Cucumber_runner.runScenario["Icorrect message on login", "Icorrect message on login page"](2) -- Time elapsed: 5.294 s <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect1 email or password.] but found [Incorrect email or password.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinationforCucumber.StepDefination.message_is_displayed_on_login_page(StepDefination.java:73)
+	at ✽."Incorrect1 email or password." message is displayed on login page(file:///D:/Framework/Framework/src/test/java/cucumber/Exception.feature:9)
+
