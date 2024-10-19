@@ -1,97 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-17T05:47:21 IST" name="Surefire suite" finished-at="2024-10-17T05:47:35 IST" duration-ms="14134">
+  <suite started-at="2024-10-19T06:44:35 IST" name="Surefire suite" finished-at="2024-10-19T06:44:35 IST" duration-ms="12">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Cucumber_runner@67a20f67]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-10-17T05:47:21 IST" name="Surefire test" finished-at="2024-10-17T05:47:35 IST" duration-ms="14134">
-      <class name="cucumber.Cucumber_runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Cucumber_runner@67a20f67]" started-at="2024-10-17T05:47:21 IST" name="setUpClass" finished-at="2024-10-17T05:47:22 IST" duration-ms="336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@39e43310]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Cucumber_runner@67a20f67]" started-at="2024-10-17T05:47:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T05:47:30 IST" duration-ms="8395" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Icorrect message on login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Icorrect message on login page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect1 email or password.] but found [Incorrect email or password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect1 email or password.] but found [Incorrect email or password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinationforCucumber.StepDefination.message_is_displayed_on_login_page(StepDefination.java:73)
-at ✽."Incorrect1 email or password." message is displayed on login page(file:///D:/Framework/Framework/src/test/java/cucumber/Exception.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Cucumber_runner@67a20f67]" started-at="2024-10-17T05:47:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T05:47:35 IST" duration-ms="5294" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Icorrect message on login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Icorrect message on login page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect1 email or password.] but found [Incorrect email or password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect1 email or password.] but found [Incorrect email or password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinationforCucumber.StepDefination.message_is_displayed_on_login_page(StepDefination.java:73)
-at ✽."Incorrect1 email or password." message is displayed on login page(file:///D:/Framework/Framework/src/test/java/cucumber/Exception.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.Cucumber_runner@67a20f67]" started-at="2024-10-17T05:47:35 IST" name="tearDownClass" finished-at="2024-10-17T05:47:35 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.Cucumber_runner -->
+    <test started-at="2024-10-19T06:44:35 IST" name="Surefire test" finished-at="2024-10-19T06:44:35 IST" duration-ms="12">
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
